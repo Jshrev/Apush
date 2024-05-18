@@ -1,6 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background: linear-gradient(to bottom right, #fafafa, #2c9c3e);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {
