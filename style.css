@@ -1,3 +1,8 @@
+body {
+  font-family: 'Open Sans', sans-serif;  /* Change font here */
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);  /* Add background gradient here */
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
