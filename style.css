@@ -24,3 +24,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+
+.version-indicator {
+  text-align: center; 
+  font-size: 12px;  
+  margin: 10px 0;  
+  color: #aaa;  
+}
