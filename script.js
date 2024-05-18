@@ -6,7 +6,6 @@ const issueSection = document.getElementById('issue-section');
 const historySection = document.getElementById('history-section');
 const solutionsSection = document.getElementById('solutions-section');
 
-// Function to handle smooth scrolling to a section
 function scrollToSection(sectionElement) {
   sectionElement.scrollIntoView({
     behavior: 'smooth',
@@ -14,7 +13,6 @@ function scrollToSection(sectionElement) {
   });
 }
 
-// Add click event listeners to each button
 issueBtn.addEventListener('click', () => scrollToSection(issueSection));
 historyBtn.addEventListener('click', () => scrollToSection(historySection));
 solutionsBtn.addEventListener('click', () => scrollToSection(solutionsSection));
