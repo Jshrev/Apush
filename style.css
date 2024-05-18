@@ -1,6 +1,6 @@
 body {
-  font-family: 'Open Sans', sans-serif;  /* Change font here */
-  background: linear-gradient(to right, #f0f0f0, #e0e0e0);  /* Add background gradient here */
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
 }
 
 .container {
@@ -12,6 +12,7 @@ body {
 .title {
   font-size: 2em;
   margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .subtitle {
