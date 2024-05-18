@@ -7,25 +7,58 @@ body {
 }
 
 .container {
-  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .title {
-  font-size: 2em;
-  margin-bottom: 10px;
-  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 15px;
 }
 
 .subtitle {
-  font-size: 1.5em;
+  text-align: center;
+  font-size: 1.2em;
   margin-bottom: 15px;
 }
 
 .text-box {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.scroll-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
-  line-height: 1.5;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.scroll-btn:hover {
+  background-color: #3e8e41;
+}
+
+.section-content {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.section-content h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
 }
 
 .version-indicator {
