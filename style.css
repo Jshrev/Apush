@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background: linear-gradient(to bottom right, #fafafa, #2c9c3e);
-  background-size: cover;
+  background-size: 100% 100%
   background-attachment: fixed;
 }
 
