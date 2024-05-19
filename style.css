@@ -25,7 +25,7 @@ body {
   position: fixed;
   top: 0;
   left: auto;
-  /* transform: translateX(0%); */
+  transform: translateX(25%);
   width: 100vw;
   background-color: #ffffff;
   padding: 10px 20px;
