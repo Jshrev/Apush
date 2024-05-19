@@ -21,9 +21,11 @@ body {
   text-align: center;
   font-size: 2.5em;
   margin-bottom: 15px;
-  color: #ffffff;
+  color: #010302;
   position: fixed;
   top: 0;
+  left: 50%;
+  width: 100%;
   background-color: #ffffff;
   padding: 10px 20px;
   position: relative;
@@ -31,29 +33,31 @@ body {
 }
 
 .title-wrapper::after {
-  content: ""; /* Empty content to create the element */
+  content: ""; 
   display: block;
-  position: absolute; /* Positions the element relative to its parent */
-  top: 0; /* Positions the top edge at 0 */
-  left: 0; /* Positions the left edge at 0 */
-  width: 100%; /* Sets the width to 100% of the wrapper */
-  height: 100%; /* Fills the entire wrapper element initially */
-  background-color: transparent; /* Initially transparent */
-  transition: background-color 0.3s ease-in-out; /* Smooth transition effect */
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background-color: transparent; 
+  transition: background-color 0.3s ease-in-out; 
 }
 
-.title-wrapper.scrolled::after {  /* Style for scrolled state */
-  background-color: inherit; /* Inherits background color from the wrapper */
+.title-wrapper.scrolled::after {  
+  background-color: inherit; 
 }
 
 .subtitle {
   text-align: center;
   font-size: 1.2em;
   margin-bottom: 15px;
+  color:#ffffff
 }
 
 .text-box {
   margin-bottom: 20px;
+  color: #ffffff
 }
 
 .button-container {
