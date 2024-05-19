@@ -17,11 +17,11 @@ issueBtn.addEventListener('click', () => scrollToSection(issueSection));
 historyBtn.addEventListener('click', () => scrollToSection(historySection));
 solutionsBtn.addEventListener('click', () => scrollToSection(solutionsSection));
 
-const titleWrapper = document.querySelector('.title-wrapper');
+const titleWrapper = document.querySelector('.title');
 const scrolledClass = 'scrolled';
 
 window.addEventListener('scroll', function() {
-  const scrollY = window.scrollY;  // Get scroll position
+  const scrollY = window.scrollY;
   if (scrollY > 0) {
     titleWrapper.classList.add(scrolledClass);
   } else {

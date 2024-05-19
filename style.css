@@ -23,7 +23,8 @@ body {
   margin-top: -10px;
   margin-bottom: 15px;
   color: #010302;
-  position: fixed;
+  position: sticky;
+  z-index: 1;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -77,7 +78,7 @@ body {
   font-weight: normal;
   background-color: #ffffff;
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -109,4 +110,4 @@ body {
   color: #ffffff;  
 }
 
-/* Version 1.2.57 /*
+/* Version 1.2.58 /*
