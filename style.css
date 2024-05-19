@@ -24,6 +24,26 @@ body {
   color: #ffffff;
   position: fixed;
   top: 0;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.title-wrapper::after {
+  content: ""; /* Empty content to create the element */
+  display: block;
+  position: absolute; /* Positions the element relative to its parent */
+  top: 0; /* Positions the top edge at 0 */
+  left: 0; /* Positions the left edge at 0 */
+  width: 100%; /* Sets the width to 100% of the wrapper */
+  height: 100%; /* Fills the entire wrapper element initially */
+  background-color: transparent; /* Initially transparent */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.title-wrapper.scrolled::after {  /* Style for scrolled state */
+  background-color: inherit; /* Inherits background color from the wrapper */
 }
 
 .subtitle {
