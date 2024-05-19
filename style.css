@@ -24,7 +24,7 @@ body {
   color: #010302;
   position: fixed;
   top: 0;
-  left: 50%;
+  left: auto;
   transform: translateX(-50%);
   width: 100vw;
   background-color: #ffffff;
