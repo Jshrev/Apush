@@ -51,6 +51,8 @@ body {
 }
 
 .subtitle {
+  font-family: 'Reddit Mono', monospace;
+  font-weight: normal;
   text-align: center;
   font-size: 1.2em;
   margin-bottom: 15px;
@@ -58,6 +60,8 @@ body {
 }
 
 .text-box {
+  font-family: 'Reddit Mono', monospace;
+  font-weight: normal;
   margin-bottom: 20px;
   color: #ffffff
 }
@@ -69,7 +73,9 @@ body {
 }
 
 .scroll-btn {
-  background-color: #428f2f;
+  font-family: 'Reddit Mono', monospace;
+  font-weight: normal;
+  background-color: #ffffffb0;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -82,7 +88,7 @@ body {
 }
 
 .scroll-btn:hover {
-  background-color: #2e6a20;
+  background-color: #ffffff;
 }
 
 .section-content {
@@ -103,4 +109,4 @@ body {
   color: #ffffff;  
 }
 
-/* Version 1.2.55 /*
+/* Version 1.2.56 /*
