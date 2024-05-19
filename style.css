@@ -24,6 +24,7 @@ body {
   color: #010302;
   position: fixed;
   top: 0;
+  transform: translateX(-50%);
   width: 100vw;
   background-color: #ffffff;
   padding: 10px 20px;
