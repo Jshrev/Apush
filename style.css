@@ -75,7 +75,7 @@ body {
 .scroll-btn {
   font-family: 'Reddit Mono', monospace;
   font-weight: normal;
-  background-color: #ffffffb0;
+  background-color: #ffffff;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -88,7 +88,7 @@ body {
 }
 
 .scroll-btn:hover {
-  background-color: #ffffff;
+  background-color: #ffffffbb;
 }
 
 .section-content {
@@ -109,4 +109,4 @@ body {
   color: #ffffff;  
 }
 
-/* Version 1.2.56 /*
+/* Version 1.2.57 /*
