@@ -7,7 +7,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00029e",endColorstr="#00029e",GradientType=1);
   background-position: 0 0;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
 }
 
 .container {
@@ -129,4 +129,4 @@ body {
   color: #ffffff;  
 }
 
-/* Version 1.2.77 */
+/* Version 1.2.78 */
