@@ -118,7 +118,7 @@ body {
 .section-content h2 {
   font-size: 1.8em;
   margin-bottom: 10px;
-  color:#ddd;
+  color:rgb(0, 0, 0);
 }
 
 .version-indicator {
@@ -128,4 +128,4 @@ body {
   color: #ffffff;  
 }
 
-/* Version 1.2.71 */
+/* Version 1.2.72 */
