@@ -64,8 +64,9 @@ body {
   font-weight: normal;
   text-align: center;
   font-size: 1.2em;
+  margin-top: 50px;
   margin-bottom: 15px;
-  color: #010302
+  color: #ffffff
 }
 
 .text-box {
@@ -119,4 +120,4 @@ body {
   color: #ffffff;  
 }
 
-/* Version 1.2.66 /*
+/* Version 1.2.67 /*
