@@ -59,6 +59,15 @@ body {
   color:#ffffff
 }
 
+.subtitle2 {
+  font-family: 'Reddit Mono', monospace;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #010302
+}
+
 .text-box {
   font-family: 'Reddit Mono', monospace;
   font-weight: normal;
@@ -110,4 +119,4 @@ body {
   color: #ffffff;  
 }
 
-/* Version 1.2.61 /*
+/* Version 1.2.66 /*
