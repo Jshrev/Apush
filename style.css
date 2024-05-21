@@ -65,7 +65,7 @@ body {
   text-align: center;
   font-size: 1.2em;
   margin-top: 20vh;
-  margin-bottom: 5vh;
+  margin-bottom: 15vh;
   color: #ffffff
 }
 
@@ -79,7 +79,7 @@ body {
 .button-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 30vh;
+  margin-bottom: 25vh;
 }
 
 .scroll-btn {
@@ -129,4 +129,4 @@ body {
   color: #ffffff;  
 }
 
-/* Version 1.2.75 */
+/* Version 1.2.76 */
